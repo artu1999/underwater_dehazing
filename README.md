@@ -22,4 +22,12 @@ Some dehazing examples:
 ![alt text](https://github.com/artu1999/underwater_dehazing/blob/main/images/dehazed_examples.png?raw=true)
 
 
+References:
+
+- FUnIE-GAN [github](https://github.com/xahidbuffon/FUnIE-GAN), [paper](https://ieeexplore.ieee.org/document/9001231)
+
+- EnlightenGAN [paper](https://arxiv.org/pdf/1906.06972.pdf)
+
+- Colour perceptual distance [Definition](https://www.compuphase.com/cmetric.htm), [implementation](github.com/wandb/superres)
+
 
