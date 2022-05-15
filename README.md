@@ -8,11 +8,18 @@ This model takes inspiration from the work proposed with FUnIE-GAN, with a few m
 
 - The generator loss was changed from MSE to MAE to improve its stability. Additionally, one-sided label smoothing was used to improve the generator's adversarial defense.
 
-The generator architecture is composed by 8 upsampling and 8 downsampling blocks. Additionally, a smaller alternative is also available with 5 and 5 blocks instead:
+The generator architecture is composed by 8 upsampling and 8 downsampling blocks. 
+
+![alt text](https://github.com/artu1999/underwater_dehazing/blob/main/images/3.5.2_UNet_CGAN.png?raw=true)
+
+![alt text](https://github.com/artu1999/underwater_dehazing/blob/main/images/3.5.2_UNet_blocks.png?raw=true)
+
+Additionally, a smaller version of the generator is also available, which is identical to this one but with only 5 and 5 blocks instead.
 
 
 Some dehazing examples:
 
+![alt text](https://github.com/artu1999/underwater_dehazing/blob/main/images/dehazed_examples.png?raw=true)
 
 
 
